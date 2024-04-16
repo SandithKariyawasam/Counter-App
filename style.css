@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #000000, #ff0000);
+    padding: 10px;
+}
+.appface{
+    background: linear-gradient(0deg, #17a24e, #ffffff);
+    width: 100%;
+    max-width: 420px;
+    margin: 100px auto 20px;
+    padding: 40px 20px 40px ;
+    border-radius: 30px;
+}
+.counter{
+    background: rgb(245, 236, 236);
+    border-radius: 50%;
+    width:120px;
+    height: 120px;
+    margin: 10px auto 20px;
+    padding: 7px 20px 40px ;
+}
+button{
+    width: 180px;
+}
+#increment-btn{
+    border: none;
+    outline: none;
+    padding: 16px 30px;
+    background: #ff0000;
+    color: #000000;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+#save-btn{
+    border: none;
+    outline: none;
+    padding: 16px 30px;
+    background: #2bff00;
+    color: hsl(0, 0%, 0%);
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 10px 10px 10px;
+}
+h2{
+    font-size: 80px;
+    margin: 10px -5px;
+    padding: 0px -4px  ;
+}
+h1, h2{
+    font-family: 'Poppins',sans-serif;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+#save-el{
+    font-weight: bold;
+    font-size: 26px;
+}
